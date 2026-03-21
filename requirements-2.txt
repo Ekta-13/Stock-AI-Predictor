@@ -1,0 +1,6 @@
+gradio
+yfinance
+pandas-ta
+scikit-learn
+plotly
+feedparser
