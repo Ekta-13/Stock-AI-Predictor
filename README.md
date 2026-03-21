@@ -22,6 +22,6 @@ This project is a real-time Financial Intelligence dashboard that uses Machine L
 * **Data Leakage:** Implemented TimeSeriesSplit to ensure the model never "sees" the future during training.
 * **Build Optimization:** Resolved environment-specific dependency conflicts (Python 3.13/NumPy 2.0) during cloud deployment.
 * **Feature Engineering:** Calculated RSI, EMA, and ATR on-the-fly for real-time inference.
-
+  
 ## 📸 Screenshots
 ![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
