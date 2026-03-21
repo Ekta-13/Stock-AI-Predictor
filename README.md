@@ -24,5 +24,4 @@ This project is a real-time Financial Intelligence dashboard that uses Machine L
 * **Feature Engineering:** Calculated RSI, EMA, and ATR on-the-fly for real-time inference.
 
 ## 📸 Screenshots
-## 📸 Screenshots
 ![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
