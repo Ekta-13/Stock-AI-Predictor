@@ -27,6 +27,9 @@ The "brain" of this dashboard is a **Machine Learning model** (Random Forest) tr
 ## 📸 Screenshots
 ![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
 
+## 📉 System Architecture
+![NLP Triage Flowchart](https://github.com/user-attachments/assets/cbb11694-7622-43b4-9fdf-2b93e52a9219)
+
 ## ⚡ Quick Start
 ```bash
 # Clone the repository
