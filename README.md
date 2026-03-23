@@ -1,27 +1,39 @@
-# 📈 AI Equity Intelligence Dashboard
-**A Live Predictive Analysis Tool for Stock Market Movement**
+# 📈 Live AI Stock Market Dashboard
+> **A Real-Time Predictive Engine for Global Equities**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/spaces/Ekta-13/Stock-AI-Predictor)
+**🔗 [Live Demo on Hugging Face](https://huggingface.co/spaces/Ekta-13/Stock-AI-Predictor)**
 
-## 🎯 Overview
-This project is a real-time Financial Intelligence dashboard that uses Machine Learning (Random Forest) to predict the next-day price direction of US equities. It combines technical analysis (indicators) with real-time market news to provide a holistic view for traders.
+## 🎯 What it is
+I built a smart **Stock Predictor** tool designed to simplify market analysis. Users can input any global ticker (e.g., Reliance, Apple, or Tata Motors), and the AI instantly analyzes historical data to generate a **Bullish** (Upward) or **Bearish** (Downward) signal.
 
-## 🚀 Features
-* **Directional Prediction:** Forecasts "BULLISH" or "BEARISH" signals with confidence scores.
-* **Technical Dashboard:** Visualizes Price vs. EMA trends using interactive Plotly charts.
-* **Real-time News:** Fetches the latest Google News headlines for the analyzed ticker.
-* **MLOps:** Fully deployed as a microservice on Hugging Face Spaces.
+## ⚙️ How it works
+The "brain" of this dashboard is a **Machine Learning model** (Random Forest) trained on years of historical stock data. 
+* **Pattern Recognition:** It analyzes complex indicators like moving averages and price momentum—performing calculations in milliseconds that would take a human hours.
+* **Smart Validation:** To ensure the model is reliable, I used `TimeSeriesSplit` to prevent the AI from "cheating" by looking at future data during its training phase.
+
+## 🚀 Key Features
+* **🤖 AI Signal:** Generates directional predictions with a **Confidence Score** (e.g., 85% Bullish).
+* **📊 Live Charts:** Creates an interactive **Plotly** graph so you can visualize price trends and technical overlays dynamically.
+* **📰 Real-time News:** Automatically pulls the latest Google News headlines for the specific stock to provide fundamental context for price movements.
+* **🌐 Cloud Deployed:** This is a fully functional web application hosted on **Hugging Face Spaces**, making it accessible to anyone, anywhere.
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.13
-* **Libraries:** Scikit-Learn, Pandas-TA, YFinance, Plotly, Gradio
-* **Model:** Random Forest Classifier (Optimized via TimeSeriesSplit)
-* **Deployment:** Hugging Face Spaces (Cloud-native)
+* **Language:** Python
+* **Machine Learning:** Scikit-Learn (Random Forest)
+* **Financial Logic:** Pandas-TA, YFinance
+* **Interface:** Gradio & Plotly
+* **Deployment:** Hugging Face Spaces
 
-## 🧠 Technical Challenges Solved
-* **Data Leakage:** Implemented TimeSeriesSplit to ensure the model never "sees" the future during training.
-* **Build Optimization:** Resolved environment-specific dependency conflicts (Python 3.13/NumPy 2.0) during cloud deployment.
-* **Feature Engineering:** Calculated RSI, EMA, and ATR on-the-fly for real-time inference.
+## ⚡ Quick Start
+```bash
+# Clone the repository
+git clone [https://github.com/Ekta-13/Stock-AI-Predictor.git](https://github.com/Ekta-13/Stock-AI-Predictor.git)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+python app.py
   
 ## 📸 Screenshots
 ![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
