@@ -24,6 +24,9 @@ The "brain" of this dashboard is a **Machine Learning model** (Random Forest) tr
 * **Interface:** Gradio & Plotly
 * **Deployment:** Hugging Face Spaces
 
+## 📸 Screenshots
+![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
+
 ## ⚡ Quick Start
 ```bash
 # Clone the repository
@@ -35,5 +38,3 @@ pip install -r requirements.txt
 # Run the dashboard
 python app.py
   
-## 📸 Screenshots
-![Dashboard Overview](https://github.com/user-attachments/assets/4fd74521-275c-46c3-a711-93f7b3016c8d)
